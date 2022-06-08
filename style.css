@@ -1,0 +1,327 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+    overflow-x: hidden;
+    max-width: 100%;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    height:100px;
+    border-bottom: 9px solid #EAF8FF;
+    margin-top:30px;
+}
+
+#language{
+   padding-left: 20px;
+}
+.language_buttonwithicon{
+    background-color: white;
+    font-family:'Nobile', sans-serif;
+    font-weight: 500;
+    font-size:24px;
+    color:#0299E3; 
+    box-sizing: border-box;
+    width:120px;
+    height:60px;  
+    border:2px solid #0299E3 !important;  
+    border-radius: 32px; 
+}
+.fa-globe{
+    padding-right: 10px;
+}
+a{
+    font-family:'Nobile', sans-serif;
+    font-weight:500;
+    font-size:24px;
+    color:#000000;  
+    padding-right: 60px;
+}
+
+.signup{
+    box-sizing: border-box;
+    width:194px;
+    height:60px;
+    background-color: #ffffff;
+    border:2px solid #0299E3;
+    border-radius: 32px;
+    padding-right: -80px;
+    font-family:'Nobile', sans-serif;
+    font-weight: 500;
+    font-size:24px;
+    color:#0299E3;
+}
+
+.col-7{
+    margin-top:157px;
+}
+
+
+.title_text{
+    display:flex;
+    gap:10px;
+}
+
+.orange_text{
+    color:#F39801;
+    font-family:'Nobile', sans-serif;
+    font-weight: 700;
+    font-size: 64px; 
+}
+
+.blue_text{
+    font-family:'Nobile', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    color:#0299E3;
+}
+
+.subtext_1{
+    font-family:'Nobile', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    color:#83BF4F;
+    margin-top:49px;
+}
+
+.subtext_2{
+    font-family:'Nobile', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    color:#83BF4F;
+    margin-top:-12px;   
+}
+
+.app_description{
+    font-family:'Nobile', sans-serif;
+    font-weight: 200;
+    font-size: 36px;
+    color:#6F7370;
+    margin-top:70px;
+}  
+
+.col-5{
+    display:flex;
+    position: relative;
+}
+
+img.pill_gif{
+    width:100%;
+    height:auto;
+
+} 
+
+.calendar{
+    width:180px;
+    height:180px;
+    position: absolute;
+    bottom: 130px;
+    right: -30px;
+  
+}
+
+#how_it_works{
+    background-color: #F39801;
+    height:1014px; 
+}
+
+.hiw_header{
+    font-family:'Nobile', sans-serif;
+    font-weight: 700;
+    font-size: 55px;
+    color: #ffffff;
+    padding-left: 15px;
+}
+
+.container-hiw{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top:200px;
+
+}
+.container-hiw img {
+    max-width: 100%;
+  }
+
+h3{
+    font-family:'Nobile', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    text-align:center;
+    color: #ffffff;
+}
+
+.hiw_p{
+    font-family: 'Nobile', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;   
+    color: #ffffff; 
+    padding-top: 30px;   
+}
+#cards_section{
+    display: flex;
+    justify-content: space-evenly;
+    height: 902px;
+    align-items: center;
+}
+
+.card{
+border: solid 3px;
+color: #83BF4F;
+width: 30%;
+height: 60%;
+padding: 30px;
+}
+
+.card_body{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cardtitle{
+    color: #83BF4F;
+    font-family: 'nobile', sans-serif;
+    font-weight: 700;
+    font-size: 32px; 
+}
+.card_text{
+    font-family:'Nobile', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #6F7370;
+    padding-top: 25px;
+}
+.cardlinks{
+    font-family:'Nobile', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #0299E3;
+    text-decoration: underline;
+}
+#connect{
+    background-color:#856BB4;
+    height: 1014px;
+}
+.connect_title{
+    font-family:'Nobile', sans-serif;
+    font-weight: 700;
+    font-size: 55px;
+    color: #FFFFFF;
+    
+    padding-top: 80px;
+}
+
+.connect_topcontainer{
+    display:flex;
+    justify-content: space-between;
+}
+.connecttext{
+    font-family: 'Nobile', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    width:859px;
+    color: #FFFFFF;
+    margin-top:103px;
+}
+
+
+.housewithkids{
+  
+    width:600px;
+    height:673px;
+    margin-top:-90px;
+}
+#companyinfo{
+    display:flex;
+    align-items: center;
+}
+
+.companyinfo ul li img {
+    padding-right: 20px;
+  }
+  
+  .companyinfo ul li {
+    padding: 10px 0;
+  }
+
+li{
+    list-style: none;
+    color: #0299E3;
+}
+.header_border{
+    border: 4px solid #FFAB01;
+    border-radius: 100px;
+    width:178px;
+    height:73px;
+}
+.info_header , .footer_headings{
+    font-family: 'Nobile', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #0299E3;
+    margin-top: 15px;
+    
+}
+.footer_headings{
+    text-decoration: underline;
+    margin-top:67px;
+}
+.address , .subheadings{
+    font-family: 'Nobile', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #0299E3;
+}
+.stay-connected-input img{
+    max-width: 90%;
+  }
+  .emailicon {
+    padding-right:50px;
+    width: 32px;
+    height: 21px;
+}
+.phoneicon {
+    padding-right:50px;
+    width: 32px;
+    height: 21px;
+}
+.texticon{
+padding-right:50px;
+width: 32px;
+height: 21px;
+}
+
+.footer_copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 300px;
+    padding-left: 15px;
+}
+
+.footer_copyrightext{
+    font-family: 'Nobile', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #0299E3;
+}
+#copyright{
+    font-family: 'Nobile', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    color: #0299E3;
+}
+#bottom-stuff{
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 5px #0299E3;
+    padding-top: 20px;    
+}
